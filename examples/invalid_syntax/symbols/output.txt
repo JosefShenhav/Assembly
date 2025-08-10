@@ -1,0 +1,5 @@
+ERROR: (Line 1) Command or Symbol must start with letter (34asd: .stop ; Invalid name syntax)
+ERROR: (Line 2) Symbol length should be less than 30
+ERROR: (Line 6) Symbol name already defined (A)
+ERROR: (Line 9) Symbol name and macro can't share same name (same)
+ERROR (Line 11) Flied to find command name (asd)

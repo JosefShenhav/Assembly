@@ -1,0 +1,8 @@
+ERROR: (Line 2) Macro name should not be a command name (mov)
+ERROR: (Line: 6) Macro should not contain spam letters
+ERROR: (Line 10) Macro name should start only with letters: (3s)
+ERROR: (Line 14) Macro name should not be an instruction name (data)
+ERROR: (Line 18) Macro name should not be an instruction name (entry)
+ERROR: (Line 23) Macro end should not contain spam letters
+ERROR: (Line: 28) found multi macros with same name (b)
+ERROR: (Line 32) line length should not be more than 80

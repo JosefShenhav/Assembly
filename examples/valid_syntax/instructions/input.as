@@ -1,0 +1,10 @@
+A: .data 1, 3, 4, 5,   6,   67
+B: .string "example with b"
+C: .mat[3][4]
+D: .mat[3][4] 0, 1
+E: .mat[2][1] 0, 1
+prn A
+prn B
+prn C
+prn D
+prn E

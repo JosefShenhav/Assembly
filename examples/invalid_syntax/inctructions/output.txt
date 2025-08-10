@@ -1,0 +1,24 @@
+ERROR: (Line 1) Number must start with a valid number or +/- symbols
+ERROR: (Line 2) Number in data instruction should be between -512<=x<=511 (Got: 10000)
+ERROR: (Line 3) Number in data instruction should be between -512<=x<=511 (Got: -10000)
+ERROR: (Line 4) Expected number values after data instruction
+ERROR (Line 5) After one number expected comma before another number (213 ; Expected comma)
+ERROR: (Line 6) Expected number values after data instruction
+ERROR: (Line 9) Forget to close your string.
+ERROR: (Line 11) Failed to find any actual string.
+ERROR: (Line 12) Failed to find any actual string.
+ERROR: (Line 15) Invalid mat definition syntax
+ERROR: (Line 16) Invalid mat definition syntax
+ERROR: (Line 17) Number of params should not be more than 4
+ERROR (Line 18) After one number expected comma before another number (3 ; Missing comma)
+ERROR: (Line 19) Number in data instruction should be between -512<=x<=511 (Got: 21313221)
+ERROR: (Line 20) Number in data instruction should be between -512<=x<=511 (Got: -21313221)
+ERROR: (Line 21) Number must start with a valid number or +/- symbols
+ERROR: (Line 23) Symbol must start with alphameric char (32dasdsaas ; Invalid entry name)
+ERROR: (Line 24) Symbol must start with alphameric char (32dasdsaas ; Invalid extern name)
+ERROR: (Line 29) Found multi entries with same name (a)
+ERROR: (Line 32) Found multi externals with same name (a)
+ERROR: (Line 33) Found multi externals with same name (a)
+ERROR (Line: 40): The line contains unexpected params ' asdsad'
+ERROR (Line: 41): The line contains unexpected params ' asdsad'
+ERROR: (Line 36) Failed to find symbol with name: missing

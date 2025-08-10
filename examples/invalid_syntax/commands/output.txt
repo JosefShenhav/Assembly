@@ -1,0 +1,13 @@
+ERROR (Line: 2): The line contains unexpected params ', r2 ; Too much operands'
+ERROR: (Line: 3) Unexpected number of operands (Expected: 2, Actual: 1)
+ERROR: (Line 4) Unexpected second param value
+ERROR: (Line: 5) Unexpected number of operands (Expected: 2, Actual: 0)
+ERROR: (Line 6) After one operand should be , to another operand (r3 ; Missing comma)
+ERROR: (Line: 7) Unexpected destination operand type
+ERROR: (Line: 10) Unexpected number of operands (Expected: 1, Actual: 2)
+ERROR: (Line: 11) Unexpected number of operands (Expected: 1, Actual: 0)
+ERROR: (Line: 12) Unexpected destination operand type
+ERROR: (Line 13) After one operand should be , to another operand (sdadas ; Spam letters)
+ERROR: (Line: 16) Unexpected number of operands (Expected: 0, Actual: 1)
+ERROR (Line 19) Flied to find command name (invalid)
+WARNING: Assembler failed. Skipping to next file...
