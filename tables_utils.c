@@ -13,6 +13,9 @@
  * @return The table with this name
  */
 MACRO *find_macro_by_name(MACRO *head, const char *name, int length) {
+    /* Empty string, return directly null */
+    if (!*name) return NULL;
+
     while (head != NULL) {
         /* Check if this table has the name */
         if (strncmp(head->name, name, length) == 0) {

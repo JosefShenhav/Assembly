@@ -147,6 +147,10 @@ STATUS_CODE first_assembler(char *filename, ASSEMBLER_TABLES *assembler_tables) 
 
             /* Entry Type */
             if (strcmp(command_name, ENTRY_INSTRUCTION_NAME) == 0) {
+                if (symbol_name != NULL) {
+                    printf("WARNING: (Line %d) Symbol not should define in entry instruction \n", line_number);
+                    continue;
+                }
                 /* After '.entry' we expected to get the entry name */
                 entry_name = get_current_symbol(&line_ptr, line_number);
 
@@ -176,6 +180,10 @@ STATUS_CODE first_assembler(char *filename, ASSEMBLER_TABLES *assembler_tables) 
                 tail_entry_instruction = new_entry_instruction;
                 /* External Type*/
             } else if (strcmp(command_name, EXTERNAL_INSTRUCTION_NAME) == 0) {
+                if (symbol_name != NULL) {
+                    printf("WARNING: (Line %d) Symbol not should define in external instruction \n", line_number);
+                    continue;
+                }
                 external_name = get_current_symbol(&line_ptr, line_number);
 
                 /* Symbol name is invalid */
