@@ -10,3 +10,6 @@ $(TARGET): $(OBJ)
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $<
+
+clean:
+	rm -f $(OBJ) $(TARGET)
