@@ -1,5 +1,11 @@
 prn r1
 mov #1, r2
+prn r1
+mov #1, r2
+prn r1
+mov #1, r2
+prn r1
+mov #1, r2
 W: .data 1, 2,3
 inc r5
 jmp W
@@ -7,3 +13,5 @@ clr r5
 jmp W
 clr r5
 stop
+prn r1
+mov #1, r2

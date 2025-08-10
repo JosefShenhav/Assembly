@@ -1,12 +1,16 @@
 .entry A
+
 .extern B
 .entry C
 .extern D
 .entry E
+
 mov #-5, B
 mov #-8, B
+
 lea B, r3
 cmp D, B
+
 A: .data 7, 8, 9
 C: .data 1, 2, 3
 E: .data 4, 5, 6
